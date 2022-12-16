@@ -48,7 +48,7 @@ const Navbar = ({ toggleMode, handleToggleMode }) => {
           />
         </div>
         <div
-          className={`${toggle ? 'flex' : 'hidden'} justify-center py-6 px-6 absolute top-20 left-0 right-0 mx-4 my-2 min-w-[60px] rounded-xl sidebar bg-primary text-lightM h-[70vh] items-center`}
+          className={`${toggle ? 'flex' : 'hidden'} justify-center py-6 px-6 absolute top-20 right-0 mx-4 my-2 min-w-[60px] rounded-xl sidebar bg-primary text-lightM items-center`}
         >
           <div className='flex flex-col gap-6 items-center'>
             <Link to='/'>
