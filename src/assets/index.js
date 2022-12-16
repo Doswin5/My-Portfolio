@@ -4,5 +4,13 @@ import menu from './menu.svg'
 import close from './close.svg'
 import download from './download.png'
 import resume from './resume.pdf'
+import html from './Html5.svg'
+import javascript from './Javascript.svg'
+import github from './Github.svg'
+import tailwind from './Tailwindcss.png'
+import react from './React.svg'
+import css from './Css3.svg'
+import sass from './Sass.svg'
+import git from './Git.svg'
 
-export { sun, moon, menu, close, download, resume };
+export { sun, moon, menu, close, download, resume, html, javascript, github, tailwind, react, css, sass, git };
