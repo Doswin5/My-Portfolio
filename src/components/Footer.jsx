@@ -1,8 +1,10 @@
 import React from 'react'
 
-const Footer = () => {
+const Footer = ({ toggleMode }) => {
   return (
-    <div>Footer</div>
+    <div className={`flex justify-center items-center py-8 border-t-2 border-primary`}>
+      Footer
+    </div>
   )
 }
 
