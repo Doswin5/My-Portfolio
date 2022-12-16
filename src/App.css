@@ -21,11 +21,12 @@ a:hover {
   /* color: #b3541e; */
 }
 
-button {
+button, .btn {
   padding: 8px 24px;
   border-radius: 50px;
   background-color: #b3541e;
   color: white;
+  display: inline-block;
 }
 
 h2 {
