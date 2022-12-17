@@ -1,7 +1,6 @@
 import React from 'react'
 // import { html } from '../assets'
 import { technologies } from '../constants'
-// import { technologies } from '../constants'
 
 const SkillsPage = () => {
   return (

@@ -12,5 +12,8 @@ import react from './React.svg'
 import css from './Css3.svg'
 import sass from './Sass.svg'
 import git from './Git.svg'
+import twitter from './Twitter.svg'
+import mail from './Mail.svg'
+import linkedIn from './LinkedIn.svg'
 
-export { sun, moon, menu, close, download, resume, html, javascript, github, tailwind, react, css, sass, git };
+export { sun, moon, menu, close, download, resume, html, javascript, github, tailwind, react, css, sass, git, twitter, mail, linkedIn };

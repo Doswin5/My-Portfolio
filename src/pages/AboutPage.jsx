@@ -14,7 +14,7 @@ const AboutPage = () => {
         <br />
         <a
           href={resume}
-          download='Ayomide reume.pdf'
+          download='Ayomide resume.pdf'
           className='btn flex flex-row items-center'
         >
           Download CV

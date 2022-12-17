@@ -1,4 +1,4 @@
-import { html, css, javascript, tailwind, react, github, sass, git } from '../assets'
+import { html, css, javascript, tailwind, react, github, sass, git, linkedIn, twitter } from '../assets'
 
 export const technologies = [
   {
@@ -40,5 +40,29 @@ export const technologies = [
     id: 8,
     title: 'GIT',
     icon: git,
+  },
+]
+
+export const footerLinks = [
+  {
+    id: 1,
+    link: 'https://www.linkedin.com/in/ayomide-dosunmu-252489182',
+    icon: linkedIn,
+    title: 'LinkedIn',
+    message: 'Connect with me on linkedIn',
+  },
+  {
+    id: 2,
+    link: 'https://github.com/Doswin5',
+    icon: github,
+    title: 'Github',
+    message: 'Connect with me on Github',
+  },
+  {
+    id: 3,
+    link: 'https://twitter.com/DosunmuAyomide',
+    icon: twitter,
+    title: 'Twitter',
+    message: 'Connect with me on Twitter',
   },
 ]
