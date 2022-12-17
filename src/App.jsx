@@ -13,7 +13,7 @@ function App() {
   }
 
   return (
-    <div className={`App ${toggleMode ? 'bg-darkM text-lightM' : 'bg-lightM text-darkM'} font-medium sm:px-[100px] px-[16px]`}>
+    <div className={`App ${toggleMode ? 'bg-darkM text-lightM' : 'bg-lightM text-darkM'} font-medium sm:px-[100px] px-[16px] min-h-[100vh]`}>
       <Navbar 
         toggleMode={toggleMode}
         handleToggleMode={handleMode}
