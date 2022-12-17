@@ -1,5 +1,5 @@
 import React from 'react'
-import { resume, download } from '../assets'
+import { Link } from 'react-router-dom'
 
 const Hero = () => {
   return (
@@ -9,20 +9,10 @@ const Hero = () => {
         DOSUNMU AYOMIDE.
       </h2>
       <h3>A Frontend Web Developer.</h3>
-      <div className='mt-8'>
-        <a 
-          href={resume} 
-          download='Ayomide reume.pdf'
-          className='btn flex flex-row items-center'
-        >
-          Download CV
-          <img 
-            src={download} 
-            alt="download" 
-            className='w-[24px] h-[24px] inline ml-2'
-          />
-        </a>
-
+      <div className='mt-4 flex items-center gap-4'>
+        <Link to='/contact'>
+          <button>Hire Me</button>
+        </Link>
       </div>
 
     </div>
