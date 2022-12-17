@@ -8,7 +8,12 @@ const Footer = () => {
       <div className="flex items-center gap-4 sm:gap-8">
         {
           footerLinks.map(footerLink => (
-            <a href={footerLink.link} title={footerLink.message}>
+            <a 
+              href={footerLink.link} 
+              title={footerLink.message}
+              target='_blank'
+              rel="noopener noreferrer"
+            >
               <img 
                 src={footerLink.icon} 
                 alt={footerLink.title}
