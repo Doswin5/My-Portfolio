@@ -5,7 +5,7 @@ const AboutPage = () => {
   return (
     <div className='py-8'>
       <h1>ABOUT ME</h1>
-      <p className='my-2 sm:my-4 px-8 sm:px-16'>
+      <p className='my-2 sm:my-4 sm:px-16'>
         I'm a Frontend Web Developer who is enthusiastic about the <span className='text-primary'>process of  developing products that address user issues with particular needs</span>  in a given market and <span className='text-primary'>who has an interest in human-centered approaches and human behavior</span>.
         <br />
         <br />
