@@ -3,7 +3,7 @@ import { resume, download } from '../assets'
 
 const AboutPage = () => {
   return (
-    <div className='py-8 min-h-[100%]'>
+    <div className='py-8'>
       <h1>ABOUT ME</h1>
       <p className='my-2 sm:my-4'>
         I'm a Frontend Web Developer who is enthusiastic about the <span className='text-primary'>process of  developing products that address user issues with particular needs</span>  in a given market and <span className='text-primary'>who has an interest in human-centered approaches and human behavior</span>.
@@ -15,7 +15,7 @@ const AboutPage = () => {
         <a
           href={resume}
           download='Ayomide resume.pdf'
-          className='btn flex flex-row items-center'
+          className='btn flex flex-row items-center btn2 '
         >
           Download CV
           <img

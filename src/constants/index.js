@@ -1,4 +1,4 @@
-import { html, css, javascript, tailwind, react, github, sass, git, linkedIn, twitter } from '../assets'
+import { html, css, javascript, tailwind, react, github, sass, git, linkedIn, twitter, project1, project2, project3, project4, project5, project6 } from '../assets'
 
 export const technologies = [
   {
@@ -64,5 +64,62 @@ export const footerLinks = [
     icon: twitter,
     title: 'Twitter',
     message: 'Connect with me on Twitter',
+  },
+]
+
+export const projects = [
+  {
+    id: 1,
+    rank: '01',
+    link: 'https://doswin5.github.io/Portfolio-Website/',
+    image: project1,
+    title: 'A Portfolio Website',
+    responsiveness: 'Large screens only',
+    description: 'Connect with me on linkedIn',
+  },
+  {
+    id: 2,
+    rank: '02',
+    link: 'https://bank-modern-app-doswin5.vercel.app/',
+    image: project2,
+    title: 'Hoo Bank',
+    responsiveness: 'Large and Mobile screens',
+    description: 'Connect with me on linkedIn',
+  },
+  {
+    id: 3,
+    rank: '03',
+    link: 'https://youtube-clone-doswin5.vercel.app/',
+    image: project3,
+    title: 'Youtube Clone',
+    responsiveness: 'Large screens only',
+    description: 'Connect with me on linkedIn',
+  },
+  {
+    id: 4,
+    rank: '04',
+    link: 'https://music-player-doswin5.vercel.app/',
+    image: project4,
+    title: 'Music Player',
+    responsiveness: 'Large and Mobile screens',
+    description: 'Connect with me on linkedIn',
+  },
+  {
+    id: 5,
+    rank: '05',
+    link: 'https://recipe-app-doswin5.vercel.app/',
+    image: project5,
+    title: 'Recipe App',
+    responsiveness: 'Large and Mobile screens',
+    description: 'Connect with me on linkedIn',
+  },
+  {
+    id: 6,
+    rank: '06',
+    link: 'https://e-commerce-doswin5.vercel.app/',
+    image: project6,
+    title: 'E-Commerce Website',
+    responsiveness: 'Large and Mobile screens',
+    description: 'Connect with me on linkedIn',
   },
 ]

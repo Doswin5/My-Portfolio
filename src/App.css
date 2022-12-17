@@ -29,6 +29,10 @@ button, .btn {
   display: inline-block;
 }
 
+.btn2:hover {
+  text-decoration: none;
+}
+
 h1 {
   font-size: 40px;
   text-align: center;
@@ -62,4 +66,22 @@ h4 {
   font-size: 20px;
   font-weight: 700;
   /* color: #b3541e; */
+}
+
+h5 {
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  /* color: #b3541e; */
+}
+
+.btn3 {
+  color: #b3541e;
+  border: 2px solid #b3541e;
+  background-color: transparent;
+}
+
+.btn3:hover {
+  color: white;
+  background-color: #b3541e;
 }

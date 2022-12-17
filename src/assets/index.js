@@ -15,5 +15,11 @@ import git from './Git.svg'
 import twitter from './Twitter.svg'
 import mail from './Mail.svg'
 import linkedIn from './LinkedIn.svg'
+import project1 from './project1.png'
+import project2 from './project2.png'
+import project3 from './project3.png'
+import project4 from './project4.png'
+import project5 from './project5.png'
+import project6 from './project6.png'
 
-export { sun, moon, menu, close, download, resume, html, javascript, github, tailwind, react, css, sass, git, twitter, mail, linkedIn };
+export { sun, moon, menu, close, download, resume, html, javascript, github, tailwind, react, css, sass, git, twitter, mail, linkedIn, project1, project2, project3, project4, project5, project6 };

@@ -4,7 +4,7 @@ import { technologies } from '../constants'
 
 const SkillsPage = () => {
   return (
-    <div className='p-8'>
+    <div className='py-8'>
       <h1>SKILLS & TECHNOLOGIES</h1>
       <div className="grid grid-cols-1 sm:grid-cols-4 my-12 gap-8">
         {
