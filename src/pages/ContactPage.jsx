@@ -2,7 +2,9 @@ import React from 'react'
 
 const ContactPage = () => {
   return (
-    <div>ContactPage</div>
+    <div className='pb-8 sm:pt-[150px] pt-[120px]'>
+      ContactPage
+    </div>
   )
 }
 

@@ -31,7 +31,7 @@ const Navbar = ({ toggleMode, handleToggleMode }) => {
           My Works
         </Link>
         <Link to='/contact'>
-          <button>Contact Me</button>
+          <button className='hover:bg-primaryHover'>Contact Me</button>
         </Link>
       </div>
 
@@ -64,7 +64,7 @@ const Navbar = ({ toggleMode, handleToggleMode }) => {
               My Works
             </Link>
             <Link to='/contact'>
-              <button>Contact Me</button>
+              <button className='hover:bg-primaryHover'>Contact Me</button>
             </Link>
           </div>
         </div>
