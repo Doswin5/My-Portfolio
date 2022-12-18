@@ -51,20 +51,36 @@ const Navbar = ({ toggleMode, handleToggleMode }) => {
           className={`${toggle ? 'flex' : 'hidden'} justify-center py-6 px-6 absolute top-20 right-0 mx-4 my-2 min-w-[60px] rounded-xl sidebar bg-primary text-lightM items-center`}
         >
           <div className='flex flex-col gap-6 items-center'>
-            <Link to='/'>
+            <Link 
+              to='/' 
+              onClick={() => setToggle(prev => !prev)}
+              className='hover:text-lightM'
+            >
               Home
             </Link>
-            <Link to='/about'>
+            <Link 
+              to='/about' 
+              onClick={() => setToggle(prev => !prev)}
+              className='hover:text-lightM'
+            >
               About
             </Link>
-            <Link to='/skills'>
+            <Link 
+              to='/skills' 
+              onClick={() => setToggle(prev => !prev)}
+              className='hover:text-lightM'
+            >
               Skills & Technologies
             </Link>
-            <Link to='/my-works'>
+            <Link 
+              to='/my-works' 
+              onClick={() => setToggle(prev => !prev)}
+              className='hover:text-lightM'
+            >
               My Works
             </Link>
-            <Link to='/contact'>
-              <button className='hover:bg-primaryHover'>Contact Me</button>
+            <Link to='/contact' onClick={() => setToggle(prev => !prev)}>
+              <button>Contact Me</button>
             </Link>
           </div>
         </div>
