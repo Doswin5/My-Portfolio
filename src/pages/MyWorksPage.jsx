@@ -3,7 +3,7 @@ import { projects } from '../constants'
 
 const MyWorksPage = () => {
   return (
-    <div className="py-8">
+    <div className="pb-8 sm:pt-[150px] pt-[120px]">
       <h1 className='sm:mb-8'>PROJECTS</h1>
       <div className="flex flex-col gap-16 py-8">
         {

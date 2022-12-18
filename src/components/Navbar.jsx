@@ -7,7 +7,7 @@ const Navbar = ({ toggleMode, handleToggleMode }) => {
 
   return (
     <div 
-      className={`flex justify-between items-center py-4 sm:py-8 border-b-2 border-primary`}
+      className={`${toggleMode ? 'bg-darkM text-lightM' : 'bg-lightM text-darkM'} fixed sm:left-[100px] sm:right-[100px] left-[16px] right-[16px] top-0 flex justify-between items-center py-4 sm:py-8 border-b-2 border-primary`}
     >
       <div>
         <img 
