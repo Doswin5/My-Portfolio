@@ -32,6 +32,10 @@ button, .btn {
   text-decoration: none;
 }
 
+input {
+  /* background-color: transparent; */
+}
+
 h1 {
   font-size: 40px;
   text-align: center;

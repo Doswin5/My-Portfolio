@@ -13,6 +13,7 @@ const Footer = () => {
               title={footerLink.message}
               target='_blank'
               rel="noopener noreferrer"
+              key={footerLink.id}
             >
               <img 
                 src={footerLink.icon} 
