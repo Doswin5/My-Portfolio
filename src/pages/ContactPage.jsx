@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 // import { projects } from '../constants'
 // import { project1 } from '../assets'
 
@@ -9,13 +9,14 @@ const ContactPage = () => {
     fullName: '',
     email: '',
     message: '',
+    // subscribed: false,
   })
 
   function handleChange(event) {
-    const {name, value} = event.target
+    const {name, value, checked, type} = event.target
     setFormData(prevState => ({
       ...prevState,
-      [name]: value
+      [name]: type === 'checkbox' ? checked : value
     }))
   }
 
@@ -26,6 +27,7 @@ const ContactPage = () => {
       fullName: '',
       email: '',
       message: '',
+      subscribed: false,
     })
   }
 
@@ -68,7 +70,10 @@ const ContactPage = () => {
       </div>
       <h4 className='mt-4'>{projects[current].title}</h4> */}
 
-      <h1 className='mb-8'>Get In Touch</h1>
+      <h1 className='mb-2'>Get In Touch</h1>
+      <p className='mb-12 w-[80%] sm:w-[40%] text-center'>
+        Are you interested in collaborating with me on a Project? Hit me up. I'm open to Freelance, Part time and Developer roles also.
+      </p>
       <form className='max-w-[300px]' onSubmit={handleSubmit}>
         <input 
           className='w-full bg-transparent p-2 border-b-[1.5px] border-l-[1.5px] border-primary text-primary outline-none placeholder:text-[12px] mb-4'
@@ -77,7 +82,7 @@ const ContactPage = () => {
           name='fullName'
           onChange={handleChange} 
           value={formData.fullName}
-          />
+        />
         <input 
           className='w-full bg-transparent p-2 border-b-[1.5px] border-l-[1.5px] border-primary text-primary outline-none placeholder:text-[12px] mb-4'
           type="email"
@@ -85,25 +90,32 @@ const ContactPage = () => {
           name='email' 
           onChange={handleChange}
           value={formData.email}
-          />
+        />
         <textarea 
-          className='w-full bg-transparent p-2 border-b-[1.5px] border-l-[1.5px] border-primary text-primary outline-none placeholder:text-[12px] mb-4 resize-none'
-          type="text"
+          className='w-full bg-transparent p-2 border-b-[1.5px] border-l-[1.5px] border-primary text-primary outline-none placeholder:text-[12px] mb-2 resize-none'
           placeholder='Your Message'
           name='message' 
           onChange={handleChange}
           value={formData.message}
         />
-        <div className='flex flex-col items-center'>
-          <button className='px-[24px] py-[8px] mt-2 text-[12px] hover:bg-primaryHover '>Submit</button>
-          <span className='text-[16px] mt-2'>
+        {/* <input 
+          className='mr-2'
+          type="checkbox"
+          id='subscribed'
+          checked={formData.subscribed}
+          name='subscribed'
+          onChange={handleChange}
+        />
+        <label htmlFor="subscribed">Subscribe to my Newsletter</label> */}
+        <div className='flex flex-col items-center mt-4'>
+          <button className='px-[24px] py-[8px] text-[12px] hover:bg-primaryHover '>Submit</button>
+          <span className='text-[16px] mt-4'>
             Or <a href="mailto:ayomidedosunmuoreoluwa@gmail.com?subject=Mail from Portfolio"
             className='text-primary'
             >
               send a mail
-            </a>
+            </a> for a quicker response.
           </span>
-
         </div>
       </form>
     </div>

@@ -27,9 +27,9 @@ const MyWorksPage = () => {
                 <h3 className='text-primary my-2'>
                   {project.title}
                 </h3>
-                <p className='font-normal'>
+                {/* <p className='font-normal'>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, voluptas voluptatem. Obcaecati at numquam laborum possimus vel! Sapiente perferendis veritatis distinctio temporibus inventore excepturi corporis ipsam fuga optio.
-                </p>
+                </p> */}
                 <h5 className='my-2 font-semibold'>
                   Responsiveness: <span className="text-primary">{project.responsiveness}</span>
                 </h5>
