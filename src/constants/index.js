@@ -1,4 +1,4 @@
-import { html, css, javascript, tailwind, react, github, sass, git, linkedIn, twitter, project1, project2, project3, project4, project5, project6 } from '../assets'
+import { html, css, javascript, tailwind, react, github, sass, git, linkedIn, twitter, project1, project2, project3, project4, project5, project6, project7 } from '../assets'
 
 export const technologies = [
   {
@@ -119,6 +119,15 @@ export const projects = [
     link: 'https://e-commerce-doswin5.vercel.app/',
     image: project6,
     title: 'E-Commerce Website',
+    responsiveness: 'Large and Mobile screens',
+    description: 'Connect with me on linkedIn',
+  },
+  {
+    id: 7,
+    rank: '07',
+    link: 'https://wosam-arena.vercel.app/',
+    image: project7,
+    title: 'Wosam Arena Website',
     responsiveness: 'Large and Mobile screens',
     description: 'Connect with me on linkedIn',
   },
