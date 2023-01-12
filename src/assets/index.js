@@ -22,5 +22,7 @@ import project4 from './project4.png'
 import project5 from './project5.png'
 import project6 from './project6.png'
 import project7 from './project7.png'
+import project8 from './project8.png'
+import project9 from './project9.png'
 
-export { sun, moon, menu, close, download, resume, html, javascript, github, tailwind, react, css, sass, git, twitter, mail, linkedIn, project1, project2, project3, project4, project5, project6, project7 };
+export { sun, moon, menu, close, download, resume, html, javascript, github, tailwind, react, css, sass, git, twitter, mail, linkedIn, project1, project2, project3, project4, project5, project6, project7, project8, project9 };
