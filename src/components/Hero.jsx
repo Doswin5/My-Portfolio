@@ -11,7 +11,10 @@ const Hero = () => {
       <h3>A Frontend Web Developer.</h3>
       <div className='mt-4 flex items-center gap-4'>
         <Link to='/contact'>
-          <button className='btn3'>Hire Me</button>
+          <button className='hover:bg-primaryHover'>Hire Me</button>
+        </Link>
+        <Link to='/my-works' className='text-primary'>
+          <button className='btn3'>My Works</button>
         </Link>
       </div>
 
