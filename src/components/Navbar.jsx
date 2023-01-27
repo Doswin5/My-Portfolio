@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import { sun, moon, menu, close } from '../assets'
 
 const Navbar = ({ toggleMode, handleToggleMode }) => {
@@ -18,18 +18,18 @@ const Navbar = ({ toggleMode, handleToggleMode }) => {
         />
       </div>
       <div className='sm:flex justify-end gap-12 items-center hidden'>
-        <Link to='/'>
+        <NavLink style={({ isActive }) => { return { color: isActive ? '#b3541e' : '' }; }} to='/'>
           Home
-        </Link>
-        <Link to='/about'>
+        </NavLink>
+        <NavLink style={({ isActive }) => { return { color: isActive ? '#b3541e' : '' }; }} to='/about'>
           About
-        </Link>
-        <Link to='/skills'>
+        </NavLink>
+        <NavLink style={({ isActive }) => { return { color: isActive ? '#b3541e' : '' }; }} to='/skills'>
           Skills & Technologies
-        </Link>
-        <Link to='/my-works'>
+        </NavLink>
+        <NavLink style={({ isActive }) => { return { color: isActive ? '#b3541e' : '' }; }} to='/my-works'>
           My Works
-        </Link>
+        </NavLink>
         <Link to='/contact'>
           <button className='hover:bg-primaryHover'>Contact Me</button>
         </Link>
